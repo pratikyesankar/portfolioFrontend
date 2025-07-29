@@ -1,0 +1,96 @@
+/* styles.css or App.css */
+
+body {
+  background-color: #000; /* black background */
+  color: #fff; /* white text */
+}
+
+h1, h2, h5 {
+  color: #f8f9fa; /* Bootstrap's lightest color */
+}
+
+a, a:hover {
+  color: #00ffae;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #198754; /* Bootstrap green */
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #343a40;
+  color: #fff;
+  border: none;
+}
+
+.card {
+  background-color: #121212;
+  color: #ffffff;
+  border: 1px solid #333;
+}
+
+.badge.bg-dark {
+  background-color: #198754;
+}
+
+.contact-card {
+  background-color: #111;
+  border: 1px solid #222;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 255, 128, 0.1); /* subtle green glow */
+}
+
+.tech-stack-item {
+  background-color: #111;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 5px;
+}
+
+.tech-stack-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 255, 128, 0.08); /* Subtle green glow */
+  cursor: pointer;
+}
+
+.mt-custom {
+  margin-top: 10rem;
+}
+.underline-green {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.underline-green::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 60px;
+  background-color: #00ff00;
+  border-radius: 4px;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+   
+}
