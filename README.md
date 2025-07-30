@@ -1,12 +1,40 @@
-# React + Vite
+ # Pratik Yesankar — Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built using modern full-stack technologies! This site showcases my projects, tech stack, and contact information — all designed to demonstrate my skills as a Full Stack Developer.
 
-Currently, two official plugins are available:
+## Live Site
+[🔗 Visit Portfolio](https://post-folio-frontend.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **About Section**: Brief intro about me and what I do  
+- **Tech Stack**: Tools and frameworks I specialize in  
+- **Projects**: List of my development work with links and descriptions  
+- **Contact**: Easy way to reach out or download my resume  
+- **Dark Mode UI**: Minimalist design
+
+---
+
+## Tech Stack
+
+### Frontend
+- React.js
+- Bootstrap
+- Vite
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+
+### Deployment
+- Vercel
+- Github
+
+  ## Contact
+For bugs or feature requests, please reach out to pratikyesankar17.@gmail.com.
+
+
+
