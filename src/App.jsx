@@ -17,9 +17,9 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const projectsRes = await axios.get('https://port-folio-backend-pi.vercel.app/projects');
-        const techstackRes = await axios.get('https://port-folio-backend-pi.vercel.app/techstacks');
-        const contactRes = await axios.get('https://port-folio-backend-pi.vercel.app/contacts');
+        const projectsRes = await axios.get('https://portfolio-backend-zeta-one.vercel.app/projects');
+        const techstackRes = await axios.get('https://portfolio-backend-zeta-one.vercel.app/techstacks');
+        const contactRes = await axios.get('https://portfolio-backend-zeta-one.vercel.app/contacts');
         setProjects(projectsRes.data);
         setTechStacks(techstackRes.data);
         setContacts(contactRes.data);
