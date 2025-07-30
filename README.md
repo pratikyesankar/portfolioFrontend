@@ -74,6 +74,7 @@ Retrieve all portfolio projects.
     "image": "https://images.pexels.com/photos/12193264/pexels-photo-12193264.jpeg"
   }
 ]
+```
 
 ## Contact
 For bugs or feature requests, please reach out to pratikyesankar17.@gmail.com.
