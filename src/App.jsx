@@ -31,6 +31,7 @@ const App = () => {
     fetchData();
   }, []);
 
+  console.log("where is the data", projects)
   return (
     <div className="container py-5">
       <Header />
